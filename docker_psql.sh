@@ -2,7 +2,6 @@
 su centos
 
 #start docker if docker server is not running
-#what is `||` logic OR operator
 sudo systemctl status docker || sudo systemctl start docker
 
 #get latest postgres image
